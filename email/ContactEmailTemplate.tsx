@@ -4,7 +4,7 @@ import {
   Head,
   Html,
   Img,
-  Link,
+  // Link,
   Preview,
   Section,
   Tailwind,
@@ -52,7 +52,7 @@ export const ContactEmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
               </Text>
               <Text style={paragraph}>Kind regards,</Text>
               <Img
-                src="/images/ycTehSignature-no-bg.png"
+                src="https://yichangteh.com/images/ycTehSignature-no-bg.png"
                 width="150"
                 height="50"
                 alt="Yi Chang (Eric) Signature"
@@ -86,10 +86,10 @@ const box = {
   padding: "0 48px",
 };
 
-const hr = {
-  borderColor: "#e6ebf1",
-  margin: "20px 0",
-};
+// const hr = {
+//   borderColor: "#e6ebf1",
+//   margin: "20px 0",
+// };
 
 const paragraph = {
   color: "#525f7f",
@@ -99,12 +99,12 @@ const paragraph = {
   textAlign: "left" as const,
 };
 
-const anchor = {
-  color: "#556cd6",
-};
+// const anchor = {
+//   color: "#556cd6",
+// };
 
-const footer = {
-  color: "#8898aa",
-  fontSize: "12px",
-  lineHeight: "16px",
-};
+// const footer = {
+//   color: "#8898aa",
+//   fontSize: "12px",
+//   lineHeight: "16px",
+// };
