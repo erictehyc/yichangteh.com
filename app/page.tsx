@@ -1,5 +1,4 @@
 import ContactForm from "@/components/ContactForm";
-import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import WorkExperience from "@/components/WorkExperience";
