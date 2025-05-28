@@ -1,8 +1,9 @@
 import ContactForm from "@/components/ContactForm";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import WorkExperience from "@/components/WorkExperience";
-import { FaAddressCard, FaBriefcase, FaHome } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -22,12 +23,12 @@ export default function Home() {
             {
               name: "Work",
               link: "#work-experience",
-              icon: <FaBriefcase />,
+              // icon: <FaBriefcase />,
             },
             {
               name: "Contact",
               link: "#contact",
-              icon: <FaAddressCard />
+              // icon: <FaAddressCard />
             },
           ]}
         />
@@ -35,6 +36,7 @@ export default function Home() {
         {/* <Grid /> */}
         <WorkExperience />
         <ContactForm />
+        <Footer />
       </div>
     </main>
   );

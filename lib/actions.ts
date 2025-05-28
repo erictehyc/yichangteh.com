@@ -24,9 +24,9 @@ export const sendEmail = async (data: ContactFormInputs) => {
     const { data, error } = await resend.emails.send({
       from: "Yi Chang (Eric) <hello@yichangteh.com>",
       to: [email],
-      bcc: ["hello@yichangteh.com"],
+      bcc: "hello@yichangteh.com",
       subject: "Thank you for reaching out!",
-      react: await ContactEmailTemplate({ name, email, message }),
+      react: ContactEmailTemplate({ name, email, message }),
       text: `Hello, ${name}!\n\nThank you for reaching out, your message below has been received:\n\n"${message}"\n\nI will get back to you at ${email} as soon as possible.\n\nBest regards,\nYi Chang (Eric)`,
     });
     if (!data || error) {

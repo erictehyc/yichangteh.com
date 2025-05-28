@@ -4,7 +4,7 @@ import { workExperienceData } from '../app/data/workExperienceData';
 
 const WorkExperience = () => {
   return (
-    <section id="work-experience" className="py-20">
+    <section id="work-experience" className="py-4">
 
       <h1 className="heading">
         My&nbsp;

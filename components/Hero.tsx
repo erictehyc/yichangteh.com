@@ -5,10 +5,9 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaAngellist } from "react-icons/fa";
 
-
 const Hero = () => {
   return (
-    <div className="pb-20" id='hero'>
+    <div className="pb-4" id="hero">
       <div>
         <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen fill="white"' />
         <Spotlight className='top-10 left-full h-[80vh] w-[50vw] fill="purple"' />
@@ -35,24 +34,24 @@ const Hero = () => {
           />
           <div className="flex justify-center relative my-20 z-10">
             <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-              <h2 className="uppercase text-center text-xs text-blue-100 max-w-[50vw] tracking-widest">
-                Hi, I&apos;m <strong>Eric Teh</strong> ✨
-              </h2>
-
+              {/* <h2 className="uppercase text-center text-base text-blue-100 max-w-[50vw] tracking-widest">
+                Hi, I&apos;m <strong>Yi Chang Teh</strong> ✨
+              </h2> */}
               <TextGenerateEffect
-                  className="capitalize text-center text-[40px] md:text-5xl lg:text-6xl"
-                  words="I build accessible and engaging web experiences"
+                className="text-center text-[40px] md:text-5xl lg:text-6xl"
+                words="Hi, I am Yi Chang Teh"
+                // words="I build accessible and engaging web experiences"
               />
-
+              
               <p className="text-center mt-4">
-                I&apos;m a software engineer specializing in designing and building frontend solutions by putting users first.
+                I&apos;m a software engineer who loves building engaging and
+                user-friendly frontend experiences that just make sense.
               </p>
-
-              <a href="#about">
-                <MagicButton 
-                title='Show my Work' 
-                position='left'
-                icon={<FaAngellist /> }
+              <a href="#contact" className="mt-12 md:mt-4">
+                <MagicButton
+                  title="Say Hi"
+                  position="left"
+                  icon={<FaAngellist />}
                 />
               </a>
             </div>

@@ -11,7 +11,7 @@ export const workExperienceData = [
 
         <div className="mb-8 text-base font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
             <div className="font-semibold">Design</div>
-            <ul className="list-disc pl-5">
+            <ul className="list-disc pl-0 md:pl-5" aria-label="Job description">
               <li>
                 <span>
                   Created user-centric wireframes and prototypes for features
@@ -20,7 +20,7 @@ export const workExperienceData = [
               </li>
             </ul>
             <ul
-              className="mt-2 flex flex-wrap pl-5"
+              className="mt-2 flex flex-wrap pl-0 md:pl-5"
               aria-label="Technologies used"
             >
               <li className="mr-1.5 mt-2">
@@ -32,7 +32,7 @@ export const workExperienceData = [
 
           <div className="mt-4">
             <div className="font-semibold">Development</div>
-            <ul className="list-disc pl-5" aria-label="Job description">
+            <ul className="list-disc pl-0 md:pl-5" aria-label="Job description">
               <li>
                 <span>
                   Built responsive, cross-browser and accessible user
@@ -75,7 +75,7 @@ export const workExperienceData = [
             </ul>
 
             <ul
-              className="mt-2 flex flex-wrap pl-5"
+              className="mt-2 flex flex-wrap pl-0 md:pl-5"
               aria-label="Technologies used"
             >
               <li className="mr-1.5 mt-2">
@@ -128,7 +128,7 @@ export const workExperienceData = [
 
           <div className="mt-4">
             <div className="font-semibold">Test</div>
-            <ul className="list-disc pl-5" aria-label="Job description">
+            <ul className="list-disc pl-0 md:pl-5" aria-label="Job description">
               <li>
                 <span>
                   Wrote unit tests for React components and backend APIs.
@@ -142,7 +142,7 @@ export const workExperienceData = [
             </ul>
 
             <ul
-              className="mt-2 flex flex-wrap pl-5"
+              className="mt-2 flex flex-wrap pl-0 md:pl-5"
               aria-label="Technologies used"
             >
               <li className="mr-1.5 mt-2">
@@ -204,7 +204,7 @@ export const workExperienceData = [
       <div>
         <div className="font-semibold text-xl">IT Intern • Jabil</div>
         <div className="mb-8 text-base font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-          <ul className="list-disc pl-5">
+          <ul className="list-disc pl-0 md:pl-5" aria-label="Job description">
             <li>
               <span>
                 Contributed to NFC e-Paper Proof-of-Concept project to solve
